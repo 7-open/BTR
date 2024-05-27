@@ -1,4 +1,5 @@
-getgenv().Loot = {
+if not LPH_OBFUSCATED then -- if obfuscated then just remove this
+    getgenv().Loot = {
         ['Options'] = {
             ['Notifications'] = false,
             ['FOVMode'] = "Sticky" , --// Sticky and FollowMouse
@@ -20,7 +21,7 @@ getgenv().Loot = {
             },
             ['FOV'] = {
                 ['UseFOV'] = true,
-                ['ShowFOV'] = true,
+                ['ShowFOV'] = false,
                 ['Radius'] = 120,
                 ['Color'] = Color3.fromRGB(255, 255, 255),
                 ['Filled'] = false,
@@ -75,7 +76,7 @@ getgenv().Loot = {
             ['Radar'] = true
         },
         ['Texture'] = {
-            ['Enabled'] = false,
+            ['Enabled'] = true,
             ['Material'] = "Brick",
             ['Color'] = Color3.fromRGB(255,255,255)
         },
@@ -1342,3 +1343,4 @@ if getgenv().Loot.Texture.Enabled then
             end
         end
     end
+end
