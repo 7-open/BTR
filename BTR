@@ -22,7 +22,7 @@ if not LPH_OBFUSCATED then -- if obfuscated then just remove this
             ['FOV'] = {
                 ['UseFOV'] = true,
                 ['ShowFOV'] = true,
-                ['Radius'] = 120,
+                ['Radius'] = 40,
                 ['Color'] = Color3.fromRGB(255, 255, 255),
                 ['Filled'] = false,
                 ['Transparency'] = 0.4
