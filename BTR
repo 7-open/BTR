@@ -76,7 +76,7 @@ if not LPH_OBFUSCATED then -- if obfuscated then just remove this
             ['Radar'] = true
         },
         ['Texture'] = {
-            ['Enabled'] = false,
+            ['Enabled'] = true,
             ['Material'] = "Brick",
             ['Color'] = Color3.fromRGB(255,255,255)
         },
