@@ -21,7 +21,7 @@ if not LPH_OBFUSCATED then -- if obfuscated then just remove this
             },
             ['FOV'] = {
                 ['UseFOV'] = true,
-                ['ShowFOV'] = false,
+                ['ShowFOV'] = true,
                 ['Radius'] = 120,
                 ['Color'] = Color3.fromRGB(255, 255, 255),
                 ['Filled'] = false,
@@ -76,7 +76,7 @@ if not LPH_OBFUSCATED then -- if obfuscated then just remove this
             ['Radar'] = true
         },
         ['Texture'] = {
-            ['Enabled'] = true,
+            ['Enabled'] = false,
             ['Material'] = "Brick",
             ['Color'] = Color3.fromRGB(255,255,255)
         },
